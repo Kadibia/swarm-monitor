@@ -1,3 +1,5 @@
+Hackathon pilot. The results reported in the submission come from Qwen2.5-1.5B-Instruct (layer 12, 40 episodes) with the settings in sandbox.py, run on a Colab T4. The text below is the general setup guide, so its defaults (Gemma, 120 episodes) differ from that run. decoy_check.py reproduces the cross-validated decoy check.
+
 # swarm-monitor
 
 A minimal testbed for one question. Can a probe on an agent's internal activations detect task drift in a small multi-agent swarm earlier and more robustly than a monitor that only reads the message logs?
